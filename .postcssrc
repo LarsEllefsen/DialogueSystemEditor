@@ -1,0 +1,7 @@
+//.postcssrc
+{
+  "plugins": {
+    "tailwindcss": {},
+    "autoprefixer": {},
+  }
+}

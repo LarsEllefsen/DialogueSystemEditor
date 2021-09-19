@@ -1,0 +1,8 @@
+// tsconfig.json
+{
+    "compilerOptions": {
+      "jsx": "react",
+      "noImplicitAny": false,
+      "allowSyntheticDefaultImports": true
+    }
+  }

@@ -1,0 +1,34 @@
+{
+  "name": "DialogueSystemEditor",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/LarsEllefsen/DialogueSystemEditor.git",
+  "author": "Lars Moe Ellefsen <larsmoeellefsen@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve ./src/index.html"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.21",
+    "@types/react-dom": "^17.0.9",
+    "parcel": "^2.0.0-nightly.841",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "autoprefixer": "^10.3.4",
+    "cssnano": "^5.0.8",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.25.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "postcss": "^8.2.15",
+    "sass": "^1.41.1",
+    "tailwindcss": "^2.2.15",
+    "typescript": "^4.4.3"
+  }
+}
