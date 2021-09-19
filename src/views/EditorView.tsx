@@ -1,3 +1,11 @@
 import React from 'react';
+import { TextEditor } from '../components/TextEditor/TextEditor';
 
-export const EditorView = () => <h1 className="text-2xl">Editor view</h1>;
+export const EditorView = () => {
+  const test = 'hei';
+  return (
+    <div id="editor-view">
+      <TextEditor />
+    </div>
+  );
+};

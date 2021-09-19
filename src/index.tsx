@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { EditorView } from './views/EditorView';
+import { MainView } from './views/MainView';
 
 ReactDOM.render(
-  <EditorView />,
+  <MainView />,
   document.getElementById('app'),
 );
